@@ -1,0 +1,56 @@
+# Unity Project .gitignore
+
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Mm]emoryCaptures/
+*.stacktrace
+
+# Visual Studio / JetBrains
+.vs/
+.vscode/
+.idea/
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# User-specific settings
+*.user
+*.suo
+
+# Auto-generated or cache
+*.log
+*.pidb
+*.booproj
+*.svd
+*.sln*
+*.csproj
+*.unityproj
+*.tmproj
+
+# Crash Reports
+sysinfo.txt
+
+# Audio and Video assets (you requested to skip)
+*.mp3
+*.wav
+*.ogg
+*.aiff
+*.mp4
+*.mov
+*.webm
+*.avi
+
+# Exclude recorded/base64 media files
+file_tmp/
+*.jpg
+*.png
+*.txt
+*.jpeg
+
+# Environment or config files (optional)
+.env
+.env.*
